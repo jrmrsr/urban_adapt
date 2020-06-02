@@ -90,6 +90,24 @@ p {
   height: 100%;
   font-family: "Montserrat";
   font-weight: 800;
+  font-size: 1.25rem;
   color: #fff;
-  padding: 5% 2%
+  padding: 5% 5%
+}
+
+/* Contact Us */
+.contact-us{
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.message-button{
+  border:none;
+  color: #fff;
+  font-weight: 800;
+  background-color: #163172;
+  padding: 1%;
+  border-radius: 2rem;
 }
