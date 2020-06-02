@@ -65,6 +65,8 @@ p {
   margin-right: 0;
   padding: 0;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .option-1 {
@@ -82,6 +84,8 @@ p {
   padding: 0;
   background-color: #163172;
   opacity: 0.7
+
+
 }
 
 .option-content {
@@ -94,6 +98,11 @@ p {
   color: #fff;
   padding: 5% 5%
 }
+
+.fa-laptop-house{
+  float: left;
+}
+
 
 /* Contact Us */
 .contact-us{
@@ -108,6 +117,20 @@ p {
   color: #fff;
   font-weight: 800;
   background-color: #163172;
-  padding: 1%;
-  border-radius: 2rem;
+  padding: 2%;
+  border-radius: 1rem;
+}
+
+textarea{
+  width:80%;
+  height:10%;
+}
+
+.features{
+  text-align: center;
+  padding-top: 1rem;
+}
+.feature-row{
+  display: block;
+  text-align: left;
 }
