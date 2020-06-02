@@ -5,6 +5,14 @@ h1 {
   color: #163172;
 }
 
+h2{
+  font-family: "Montserrat"
+  font-weight: 400;
+  font-size: 2rem;
+  color: #000;
+
+}
+
 p {
   font-family: "Montserrat";
   font-weight: 500;
@@ -15,7 +23,6 @@ p {
   padding: 2% 8%;
   background-color: #f6f6f6;
 }
-
 /* Nav Bar */
 .navbar {
   padding: 0;
@@ -24,7 +31,7 @@ p {
 .navbar-brand {
   font-family: "Ubuntu";
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: #163172;
 }
 
@@ -46,7 +53,7 @@ p {
 }
 
 .cta-text {
-  padding-top: 2%;
+  padding-top: 4%;
   padding-right: 10%;
 }
 
@@ -70,18 +77,18 @@ p {
 }
 
 .option-1 {
-  padding: 0;
+  padding: 1% 0;
   background-color: #163172;
 }
 
 .option-2 {
-  padding: 0;
+  padding: 1% 0;
   background-color: #163172;
   opacity: 0.85;
 }
 
 .option-3 {
-  padding: 0;
+  padding: 1% 0;
   background-color: #163172;
   opacity: 0.7
 
@@ -99,10 +106,19 @@ p {
   padding: 5% 5%
 }
 
-.fa-laptop-house{
-  float: left;
+/* About Us */
+.mission-header{
+  paddin-top: 3rem;
+}
+.mission-statement{
+  font-size: 1rem;
 }
 
+/* Coming Soon */
+.app-diagram{
+  text-align: left;
+  padding-top: 2%
+}
 
 /* Contact Us */
 .contact-us{
@@ -122,7 +138,7 @@ p {
 }
 
 textarea{
-  width:80%;
+  width:60%;
   height:10%;
 }
 
