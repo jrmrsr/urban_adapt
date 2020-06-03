@@ -7,9 +7,20 @@ h1 {
 
 h2 {
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 600;
   font-size: 2rem;
   color: #000;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+h6{
+  color: #163172;
 }
 
 p {
@@ -18,11 +29,14 @@ p {
   font-size: 1.25rem;
 }
 
+body {
+  background-color: #f6f6f6;
+}
+
 .container-fluid {
   padding: 2% 8%;
   margin-top: 0;
   margin-bottom: 0;
-    background-color: #f6f6f6;
 }
 
 /* Nav Bar */
@@ -38,7 +52,7 @@ p {
 }
 
 .nav-item {
-  padding: 0 0.5rem;
+  padding: 0 0;
 }
 
 .nav-link {
@@ -152,4 +166,33 @@ textarea {
 .feature-row {
   display: block;
   text-align: left;
+}
+
+/* Learn */
+.learn-title {
+  padding-top: 4%;
+}
+
+.detail-section{
+  text-align: center;
+}
+.bike-img{
+  width: 80%;
+  height: auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+
+/* Protection */
+.protect-title {
+  padding-top: 4%;
+}
+.card-header{
+  background-color: #d6e4f0;
+}
+
+/* Incentives */
+.incentives-title {
+  padding-top: 4%;
 }
