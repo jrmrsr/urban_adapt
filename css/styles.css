@@ -5,12 +5,11 @@ h1 {
   color: #163172;
 }
 
-h2{
-  font-family: "Montserrat"
-  font-weight: 400;
+h2 {
+  font-family: "Montserrat";
+  font-weight: 500;
   font-size: 2rem;
   color: #000;
-
 }
 
 p {
@@ -21,8 +20,11 @@ p {
 
 .container-fluid {
   padding: 2% 8%;
-  background-color: #f6f6f6;
+  margin-top: 0;
+  margin-bottom: 0;
+    background-color: #f6f6f6;
 }
+
 /* Nav Bar */
 .navbar {
   padding: 0;
@@ -49,7 +51,7 @@ p {
 
 /* Title */
 .cta {
-  padding: 4% 0;
+  padding-top: 4%;
 }
 
 .cta-text {
@@ -62,8 +64,9 @@ p {
 }
 
 .cta-details {
-  padding-right: 30%;
+  padding: 4% 40% 2% 0%;
   color: #000;
+  position: relative;
 }
 
 /* Title - Link Options */
@@ -90,9 +93,7 @@ p {
 .option-3 {
   padding: 1% 0;
   background-color: #163172;
-  opacity: 0.7
-
-
+  opacity: 0.7;
 }
 
 .option-content {
@@ -107,29 +108,30 @@ p {
 }
 
 /* About Us */
-.mission-header{
+.mission-header {
   paddin-top: 3rem;
 }
-.mission-statement{
+
+.mission-statement {
   font-size: 1rem;
 }
 
 /* Coming Soon */
-.app-diagram{
+.app-diagram {
   text-align: left;
   padding-top: 2%
 }
 
 /* Contact Us */
-.contact-us{
+.contact-us {
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 1.25rem;
   color: #000;
 }
 
-.message-button{
-  border:none;
+.message-button {
+  border: none;
   color: #fff;
   font-weight: 800;
   background-color: #163172;
@@ -137,16 +139,17 @@ p {
   border-radius: 1rem;
 }
 
-textarea{
-  width:60%;
-  height:10%;
+textarea {
+  width: 60%;
+  height: 10%;
 }
 
-.features{
+.features {
   text-align: center;
   padding-top: 1rem;
 }
-.feature-row{
+
+.feature-row {
   display: block;
   text-align: left;
 }
