@@ -1,128 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn about Stormwater and Flooding</title>
+    <link rel="icon" href="favicon/favicon.ico" />
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/7cec5c251f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="css\styles.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src=""
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learn about Stormwater and Flooding</title>
-  <link rel="icon" href="favicon/favicon.ico">
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/7cec5c251f.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="css\styles.css">
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</head>
+  <body>
+    <section id="learn-title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">
+            <i
+              class="fas fa-water"
+              class="d-inline-block align-top"
+              alt="Logo"
+            ></i>
+            Urban Adapt
+          </a>
 
-<body>
-  <section id="learn-title">
-    <div class="container-fluid">
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html">
-          <i class="fas fa-water" class="d-inline-block align-top" alt="Logo"></i>
-          UrbanAdapt
-        </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fas fa-bars"></span>
+          </button>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="fas fa-bars"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="learn.html">Learn about flooding</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="protection.html">Property measures</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="protection.html">Financial incentives</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#about-us">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#contact-us">Contact</a>
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item menu-link">
+                <a class="nav-link fromRight" href="learn.html">Learning Resources</a>
+              </li>
+              <li class="nav-item menu-link">
+                <a class="nav-link fromRight" href="protection.html">Property Measures</a>
+              </li>
+              <li class="nav-item menu-link">
+                <a class="nav-link fromRight" href="incentives.html"
+                  >Financial Incentives</a
+                >
+              </li>
+              <li class="nav-item menu-link">
+                <a class="nav-link fromRight" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item menu-link">
+                <a class="nav-link fromRight" href="#contact-us">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="learn-title">
+          <h1>Stormwater and Flooding</h1>
         </div>
-      </nav>
-      <div class="learn-title">
-        <h1>Stormwater and Flooding</h1>
+        <div class="row">
+          <div class="col-lg-8">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              quam libero, rhoncus nec neque nec, venenatis facilisis orci.
+              Pellentesque turpis turpis, maximus nec orci eu, ultricies
+              ultricies dui. Nulla pretium felis quis eros eleifend porta. Donec
+              porta nibh nec enim interdum mollis. Curabitur est ligula, semper
+              quis lobortis sit amet, ultrices vel dolor.
+            </p>
+          </div>
+          <div class="col-lg-4"></div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-lg-8">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quam libero, rhoncus nec neque nec, venenatis facilisis orci. Pellentesque turpis turpis, maximus nec orci eu, ultricies ultricies dui. Nulla pretium felis quis eros eleifend
-            porta. Donec porta nibh nec enim interdum mollis. Curabitur est ligula, semper quis lobortis sit amet, ultrices vel dolor.</p>
-        </div>
-        <div class="col-lg-4">
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="learn-details">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4">
-          <h3>Detail #1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quam libero, rhoncus nec neque nec, venenatis facilisis orci. Pellentesque turpis turpis, maximus nec orci eu, ultricies ultricies dui.</p>
-        </div>
-        <div class="col-lg-2">
-          <i class="fas fa-cloud-rain fa-8x"></i>
-
-        </div>
-        <div class="col-lg-4">
-          <h3>Detail #2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quam libero, rhoncus nec neque nec, venenatis facilisis orci. Pellentesque turpis turpis, maximus nec orci eu, ultricies ultricies dui.</p>
-        </div>
-        <div class="col-lg-2">
-          <i class="fas fa-water fa-8x"></i>
-        </div>
-      </div>
-      <hr>
-      <div class="detail-section">
-
-        <h2>Section Title</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quam libero, rhoncus nec neque nec, venenatis facilisis orci. Pellentesque turpis turpis, maximus nec orci eu, ultricies ultricies dui.</p>
-
-      </div>
-
-      <div class="card-deck">
-        <div class="card">
-          <img src="images\toronto.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <section id="learn-details">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>Detail #1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              quam libero, rhoncus nec neque nec, venenatis facilisis orci.
+              Pellentesque turpis turpis, maximus nec orci eu, ultricies
+              ultricies dui.
+            </p>
+          </div>
+          <div class="col-lg-2">
+            <i class="fas fa-cloud-rain fa-8x"></i>
+          </div>
+          <div class="col-lg-4">
+            <h3>Detail #2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              quam libero, rhoncus nec neque nec, venenatis facilisis orci.
+              Pellentesque turpis turpis, maximus nec orci eu, ultricies
+              ultricies dui.
+            </p>
+          </div>
+          <div class="col-lg-2">
+            <i class="fas fa-water fa-8x"></i>
           </div>
         </div>
-        <div class="card">
-          <img src="images\rain.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
+        <hr />
+        <div class="detail-section">
+          <h2>Section Title</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quam
+            libero, rhoncus nec neque nec, venenatis facilisis orci.
+            Pellentesque turpis turpis, maximus nec orci eu, ultricies ultricies
+            dui.
+          </p>
         </div>
-        <div class="card">
-          <img src="images\bike-flood.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+        <div class="card-deck">
+          <div class="card">
+            <img src="images\toronto.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images\rain.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images\bike-flood.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-
-</body>
-
+    </section>
+    <section class="footer">
+      <footer class="container">
+        <p class="footer-text">Urban Adapt</p>
+      </footer>
+    </section>
+  </body>
 </html>
