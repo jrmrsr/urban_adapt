@@ -45,6 +45,11 @@ a:hover {
   transition: none;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .container-fluid {
   padding: 2% 8%;
   margin-top: 0;
@@ -172,10 +177,6 @@ a:hover {
 /* About Us */
 .mission-header {
   padding-top: 3rem;
-}
-
-.mission-statement {
-  font-size: 1rem;
 }
 
 /* Coming Soon */
@@ -308,7 +309,7 @@ textarea {
   color: #fff;
 }
 
-#about-us {
+/* #about-us {
   margin-top: 4rem;
   margin-bottom: 4rem;
-}
+} */
